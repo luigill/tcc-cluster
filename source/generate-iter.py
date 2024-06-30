@@ -78,3 +78,11 @@ words_list = [
     "casa",
     "escola",
 ]
+
+
+# Gerando todas as permutações do grupo de palavras selecionadas e salvando o resultado em um arquivo
+with open("permutations.txt", "w") as file:
+    for word in words_list:
+        result = itertools.permutations(word)
+        for perm in result:
+            file.write(f"{''.join(perm)}\n")
