@@ -258,7 +258,6 @@ correct_words = [
     "escola",
 ]
 
-
 # escreve no csv
 with open("data.csv", "w") as csv_file:
     header = ["palavra", "erro_gramatica", "erro_truncamento", "erro_espelhamento"]
