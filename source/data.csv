@@ -1,5 +1,6 @@
 palavra,erro_gramatica,erro_truncamento,erro_espelhamento,erro_acentuacao,correta
 conseguiu,0,0,0,0,1
+conseguiu,0,0,1,0,0
 conseigiu,1,0,0,0,0
 conseguiu,0,0,0,0,1
 concegiu,1,0,0,0,0
@@ -8,6 +9,7 @@ consegui,1,1,0,0,0
 consegi,1,1,0,0,0
 
 ninguém,0,0,0,0,1
+ninguém,0,0,1,0,0
 ninguem,1,0,0,1,0
 nigem,1,0,0,1,0
 niguem,1,0,0,1,0
@@ -15,6 +17,7 @@ niguém,1,0,0,0,0
 ningen,1,0,0,1,0
 
 assalto,0,0,0,0,1
+assalto,0,0,1,0,0
 assauto,1,0,0,0,0
 asauto,1,0,0,0,0
 asalto,1,0,0,0,0
@@ -22,6 +25,7 @@ assautu,1,0,0,0,0
 asautu,1,0,0,0,0
 
 alguém,0,0,0,0,1
+alguém,0,0,1,0,0
 alguem,1,0,0,1,0
 alquem,1,0,0,1,0
 agluém,1,0,0,0,0
@@ -31,11 +35,12 @@ auguem,1,0,0,1,0
 auguém,1,0,0,0,0
 
 exame,0,0,0,0,1
+exame,0,0,1,0,0
 ezame,1,0,0,0,0
 exeme,1,0,0,0,0
 
 embaixo,0,0,0,0,1
-embaixo,0,0,1,0,1
+embaixo,0,0,1,0,0
 embaio,1,0,0,0,0
 embaixu,1,0,1,0,0
 enbaixu,1,0,0,0,0
@@ -45,11 +50,12 @@ enbeixo,1,0,0,0,0
 embaix,1,1,0,0,0
 
 fez,0,0,0,0,1
+fez,0,0,1,0,0
 fes,1,0,0,0,0
 fe,1,1,0,0,0
 
 também,0,0,0,0,1
-também,0,0,1,0,1
+também,0,0,1,0,0
 tambem,0,0,1,1,1
 tamém,1,0,0,0,0
 tanbem,1,0,0,1,0
@@ -84,7 +90,7 @@ almoco,1,0,0,0,0
 vez,0,0,0,0,1
 ves,1,0,0,0,0
 
-relógio,0,0,0,1
+relógio,0,0,0,0,1
 reógio,1,0,0,0,0
 relogio,1,0,0,1,0
 relógiu,1,0,0,0,0
